@@ -26,6 +26,25 @@
   * Now in the last step since genome can be circular also so remove the overlap length between last and first read.
   
   **Note**: This greedy algorithm does not work with every genome as it might not give optimal solution every time.
+
+
+
+* **K-Mer Composition Algorithm Using De-Bruijn Graph**:
+ 
+   *What is K-mer Composition? --> Given a String ACGTACTAT. Its 3-mer Composition is (ACG, CGT, GTA, TAC, ACT, CTA, TAT).*
+   
+   **Its De-Bruijn graph**:
+   
+    ![alt text](http://4.bp.blogspot.com/-Z5LkYQfEvtQ/U0ZfUqQNA6I/AAAAAAAAAWM/TUxVVWcdA6Q/s1600/graph.png)
+      
+   
+  **STEPS**:
   
+     * Read the k-mer composition of the graph.
   
+     * Create the De-Bruijn graph from the k-mer composition.
+ 
+     * Find an eulerian cycle in the graph.
+  
+     * Construct the genome from the found cycle.
   
