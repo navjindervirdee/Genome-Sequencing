@@ -29,7 +29,7 @@
 
 
 
-* **K-Mer Composition Algorithm Using De-Bruijn Graph**:
+ * **K-Mer Composition Algorithm Using De-Bruijn Graph**:
  
    *What is K-mer Composition? --> Given a String ACGTACTAT. Its 3-mer Composition is (ACG, CGT, GTA, TAC, ACT, CTA, TAT).*
    
@@ -38,13 +38,13 @@
     ![alt text](http://4.bp.blogspot.com/-Z5LkYQfEvtQ/U0ZfUqQNA6I/AAAAAAAAAWM/TUxVVWcdA6Q/s1600/graph.png)
       
    
-  **STEPS**:
+    **STEPS**:
   
-     * Read the k-mer composition of the graph.
+      * Read the k-mer composition of the graph.
   
-     * Create the De-Bruijn graph from the k-mer composition.
+      * Create the De-Bruijn graph from the k-mer composition.
  
-     * Find an eulerian cycle in the graph.
+      * Find an eulerian cycle in the graph.
   
-     * Construct the genome from the found cycle.
+      * Construct the genome from the found cycle.
   
